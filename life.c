@@ -10,6 +10,7 @@
 
 int main() {
 	initscr();
+	cbreak();
 	curs_set(0);
 
 	int width = 80;
